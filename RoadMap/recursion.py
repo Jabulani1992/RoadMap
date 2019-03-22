@@ -32,7 +32,7 @@ def factorial(n):
     k = 1
     if n <=1:
         return 1
-    elif n > 1:
+    elif n> 1:
         #while loop to loop through all the numbers needed
         while k != (n+1):
             fact = fact * k
