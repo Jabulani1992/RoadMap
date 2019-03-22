@@ -1,18 +1,6 @@
 def sum_array(array):
     '''Return sum of all items in an array'''
-    #declare 2 variables k and sumA
-    k = 0
-    sumA = 0
-    #while loop to loop through all elements in the array
-    #check if there are any elementsin the array
-    if len(array)>0:
-        while k != len(array):
-            sumA = sumA + array[k+1]
-            k = k+1
-    else:
-        #return 0 when the array is empty
-        return 0
-    return sumA
+    return sum(i for i in array)
 
 def fibonacci(n):
     '''Return nth term in th fibonacci sequence'''
