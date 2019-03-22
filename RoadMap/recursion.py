@@ -17,11 +17,9 @@ def sum_array(array):
 def fibonacci(n):
     '''Return nth term in th fibonacci sequence'''
     #check if n is less than or equals to 1
-    if n <= 1:
+    if n<=1:
         return n
-    elif n == 2:
-        return 2
-    elif n>2:
+    else:
         #apply the recursion by calling the function itself
         return (fibonacci(n-1)+fibonacci(n-2))
 
